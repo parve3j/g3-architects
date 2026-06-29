@@ -20,11 +20,25 @@
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
 }
+.btn-primary{
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 10px;
+
+}
 /* header style */
 
 /* navbar related style */
 .navbar{
   justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-weight: 700;
+  font-size: 2rem;
 }
 .nav-item{
   list-style: none;
@@ -37,4 +51,27 @@
 .navbar, .banner{
   max-width: 1440px;
   margin: 0 auto;
+}
+
+/* Banner related style */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-weight: 700px;
+  font-size: 4rem;
+}
+.banner-img{
+  width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .banner, .nav-links{
+    flex-direction: column;
+  }
 }
