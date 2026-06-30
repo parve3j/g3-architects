@@ -163,6 +163,13 @@ main > section{
 .features{
   gap: 140px;
 }
+#exp-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+#exp-badge{
+  padding: 45px 42px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .banner, .nav-links, .teams{
